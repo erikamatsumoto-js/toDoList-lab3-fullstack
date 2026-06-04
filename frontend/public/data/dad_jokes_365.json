@@ -1,0 +1,1827 @@
+[
+  {
+    "id": 1,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 2,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 3,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 4,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 5,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 6,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 7,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 8,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 9,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 10,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 11,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 12,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 13,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 14,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 15,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because he got caught in a staff note."
+  },
+  {
+    "id": 16,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "They had no current relationship."
+  },
+  {
+    "id": 17,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "It needed more bytes of exercise."
+  },
+  {
+    "id": 18,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because it wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 19,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because it wanted to open a savings quack."
+  },
+  {
+    "id": 20,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "He wanted to go to high school."
+  },
+  {
+    "id": 21,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "He kneaded dough too much pressure."
+  },
+  {
+    "id": 22,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because it needed space."
+  },
+  {
+    "id": 23,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because it wanted to improve its spirits."
+  },
+  {
+    "id": 24,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "Because it lost its connection."
+  },
+  {
+    "id": 25,
+    "setup": "Why did the chicken cross the road?",
+    "punchline": "He wanted to grow light bulbs instead of plants."
+  },
+  {
+    "id": 26,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 27,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 28,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 29,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 30,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 31,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 32,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 33,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 34,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 35,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 36,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 37,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 38,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 39,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 40,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because he got caught in a staff note."
+  },
+  {
+    "id": 41,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "They had no current relationship."
+  },
+  {
+    "id": 42,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "It needed more bytes of exercise."
+  },
+  {
+    "id": 43,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because it wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 44,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because it wanted to open a savings quack."
+  },
+  {
+    "id": 45,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "He wanted to go to high school."
+  },
+  {
+    "id": 46,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "He kneaded dough too much pressure."
+  },
+  {
+    "id": 47,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because it needed space."
+  },
+  {
+    "id": 48,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because it wanted to improve its spirits."
+  },
+  {
+    "id": 49,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "Because it lost its connection."
+  },
+  {
+    "id": 50,
+    "setup": "Why don't scientists trust atoms?",
+    "punchline": "He wanted to grow light bulbs instead of plants."
+  },
+  {
+    "id": 51,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 52,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 53,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 54,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 55,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 56,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 57,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 58,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 59,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 60,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 61,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 62,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 63,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 64,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 65,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because he got caught in a staff note."
+  },
+  {
+    "id": 66,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "They had no current relationship."
+  },
+  {
+    "id": 67,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "It needed more bytes of exercise."
+  },
+  {
+    "id": 68,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because it wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 69,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because it wanted to open a savings quack."
+  },
+  {
+    "id": 70,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "He wanted to go to high school."
+  },
+  {
+    "id": 71,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "He kneaded dough too much pressure."
+  },
+  {
+    "id": 72,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because it needed space."
+  },
+  {
+    "id": 73,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because it wanted to improve its spirits."
+  },
+  {
+    "id": 74,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "Because it lost its connection."
+  },
+  {
+    "id": 75,
+    "setup": "Why did the scarecrow win an award?",
+    "punchline": "He wanted to grow light bulbs instead of plants."
+  },
+  {
+    "id": 76,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 77,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 78,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 79,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 80,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 81,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 82,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 83,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 84,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 85,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 86,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 87,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 88,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 89,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 90,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because he got caught in a staff note."
+  },
+  {
+    "id": 91,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "They had no current relationship."
+  },
+  {
+    "id": 92,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "It needed more bytes of exercise."
+  },
+  {
+    "id": 93,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 94,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it wanted to open a savings quack."
+  },
+  {
+    "id": 95,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "He wanted to go to high school."
+  },
+  {
+    "id": 96,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "He kneaded dough too much pressure."
+  },
+  {
+    "id": 97,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it needed space."
+  },
+  {
+    "id": 98,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it wanted to improve its spirits."
+  },
+  {
+    "id": 99,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "Because it lost its connection."
+  },
+  {
+    "id": 100,
+    "setup": "Why did the bicycle fall over?",
+    "punchline": "He wanted to grow light bulbs instead of plants."
+  },
+  {
+    "id": 101,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 102,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 103,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 104,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 105,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 106,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 107,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 108,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 109,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 110,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 111,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 112,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 113,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 114,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 115,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because he got caught in a staff note."
+  },
+  {
+    "id": 116,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "They had no current relationship."
+  },
+  {
+    "id": 117,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "It needed more bytes of exercise."
+  },
+  {
+    "id": 118,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because it wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 119,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because it wanted to open a savings quack."
+  },
+  {
+    "id": 120,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "He wanted to go to high school."
+  },
+  {
+    "id": 121,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "He kneaded dough too much pressure."
+  },
+  {
+    "id": 122,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because it needed space."
+  },
+  {
+    "id": 123,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because it wanted to improve its spirits."
+  },
+  {
+    "id": 124,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "Because it lost its connection."
+  },
+  {
+    "id": 125,
+    "setup": "Why don't skeletons fight each other?",
+    "punchline": "He wanted to grow light bulbs instead of plants."
+  },
+  {
+    "id": 126,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 127,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 128,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 129,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 130,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 131,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 132,
+    "setup": "Why did the math book look sad?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 133,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 134,
+    "setup": "Why did the math book look sad?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 135,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 136,
+    "setup": "Why did the math book look sad?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 137,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 138,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 139,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 140,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because he got caught in a staff note."
+  },
+  {
+    "id": 141,
+    "setup": "Why did the math book look sad?",
+    "punchline": "They had no current relationship."
+  },
+  {
+    "id": 142,
+    "setup": "Why did the math book look sad?",
+    "punchline": "It needed more bytes of exercise."
+  },
+  {
+    "id": 143,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 144,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it wanted to open a savings quack."
+  },
+  {
+    "id": 145,
+    "setup": "Why did the math book look sad?",
+    "punchline": "He wanted to go to high school."
+  },
+  {
+    "id": 146,
+    "setup": "Why did the math book look sad?",
+    "punchline": "He kneaded dough too much pressure."
+  },
+  {
+    "id": 147,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it needed space."
+  },
+  {
+    "id": 148,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it wanted to improve its spirits."
+  },
+  {
+    "id": 149,
+    "setup": "Why did the math book look sad?",
+    "punchline": "Because it lost its connection."
+  },
+  {
+    "id": 150,
+    "setup": "Why did the math book look sad?",
+    "punchline": "He wanted to grow light bulbs instead of plants."
+  },
+  {
+    "id": 151,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 152,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 153,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 154,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 155,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 156,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 157,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 158,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 159,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 160,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 161,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 162,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 163,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 164,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 165,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because he got caught in a staff note."
+  },
+  {
+    "id": 166,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "They had no current relationship."
+  },
+  {
+    "id": 167,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "It needed more bytes of exercise."
+  },
+  {
+    "id": 168,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because it wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 169,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because it wanted to open a savings quack."
+  },
+  {
+    "id": 170,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "He wanted to go to high school."
+  },
+  {
+    "id": 171,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "He kneaded dough too much pressure."
+  },
+  {
+    "id": 172,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because it needed space."
+  },
+  {
+    "id": 173,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because it wanted to improve its spirits."
+  },
+  {
+    "id": 174,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "Because it lost its connection."
+  },
+  {
+    "id": 175,
+    "setup": "Why did the coffee file a police report?",
+    "punchline": "He wanted to grow light bulbs instead of plants."
+  },
+  {
+    "id": 176,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 177,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 178,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 179,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 180,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 181,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 182,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 183,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 184,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 185,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 186,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 187,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 188,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 189,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 190,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because he got caught in a staff note."
+  },
+  {
+    "id": 191,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "They had no current relationship."
+  },
+  {
+    "id": 192,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "It needed more bytes of exercise."
+  },
+  {
+    "id": 193,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because it wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 194,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because it wanted to open a savings quack."
+  },
+  {
+    "id": 195,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "He wanted to go to high school."
+  },
+  {
+    "id": 196,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "He kneaded dough too much pressure."
+  },
+  {
+    "id": 197,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because it needed space."
+  },
+  {
+    "id": 198,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because it wanted to improve its spirits."
+  },
+  {
+    "id": 199,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "Because it lost its connection."
+  },
+  {
+    "id": 200,
+    "setup": "Why did the cookie go to the doctor?",
+    "punchline": "He wanted to grow light bulbs instead of plants."
+  },
+  {
+    "id": 201,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 202,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 203,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 204,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 205,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 206,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 207,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 208,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 209,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 210,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 211,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 212,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 213,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 214,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 215,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because he got caught in a staff note."
+  },
+  {
+    "id": 216,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "They had no current relationship."
+  },
+  {
+    "id": 217,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "It needed more bytes of exercise."
+  },
+  {
+    "id": 218,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because it wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 219,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because it wanted to open a savings quack."
+  },
+  {
+    "id": 220,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "He wanted to go to high school."
+  },
+  {
+    "id": 221,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "He kneaded dough too much pressure."
+  },
+  {
+    "id": 222,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because it needed space."
+  },
+  {
+    "id": 223,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because it wanted to improve its spirits."
+  },
+  {
+    "id": 224,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "Because it lost its connection."
+  },
+  {
+    "id": 225,
+    "setup": "Why did the computer go to therapy?",
+    "punchline": "He wanted to grow light bulbs instead of plants."
+  },
+  {
+    "id": 226,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 227,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 228,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 229,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 230,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 231,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 232,
+    "setup": "Why did the tomato blush?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 233,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 234,
+    "setup": "Why did the tomato blush?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 235,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 236,
+    "setup": "Why did the tomato blush?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 237,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 238,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 239,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 240,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because he got caught in a staff note."
+  },
+  {
+    "id": 241,
+    "setup": "Why did the tomato blush?",
+    "punchline": "They had no current relationship."
+  },
+  {
+    "id": 242,
+    "setup": "Why did the tomato blush?",
+    "punchline": "It needed more bytes of exercise."
+  },
+  {
+    "id": 243,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because it wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 244,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because it wanted to open a savings quack."
+  },
+  {
+    "id": 245,
+    "setup": "Why did the tomato blush?",
+    "punchline": "He wanted to go to high school."
+  },
+  {
+    "id": 246,
+    "setup": "Why did the tomato blush?",
+    "punchline": "He kneaded dough too much pressure."
+  },
+  {
+    "id": 247,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because it needed space."
+  },
+  {
+    "id": 248,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because it wanted to improve its spirits."
+  },
+  {
+    "id": 249,
+    "setup": "Why did the tomato blush?",
+    "punchline": "Because it lost its connection."
+  },
+  {
+    "id": 250,
+    "setup": "Why did the tomato blush?",
+    "punchline": "He wanted to grow light bulbs instead of plants."
+  },
+  {
+    "id": 251,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 252,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 253,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 254,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 255,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 256,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 257,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 258,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 259,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 260,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 261,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 262,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 263,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 264,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 265,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because he got caught in a staff note."
+  },
+  {
+    "id": 266,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "They had no current relationship."
+  },
+  {
+    "id": 267,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "It needed more bytes of exercise."
+  },
+  {
+    "id": 268,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because it wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 269,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because it wanted to open a savings quack."
+  },
+  {
+    "id": 270,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "He wanted to go to high school."
+  },
+  {
+    "id": 271,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "He kneaded dough too much pressure."
+  },
+  {
+    "id": 272,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because it needed space."
+  },
+  {
+    "id": 273,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because it wanted to improve its spirits."
+  },
+  {
+    "id": 274,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "Because it lost its connection."
+  },
+  {
+    "id": 275,
+    "setup": "Why did the golfer bring two pairs of pants?",
+    "punchline": "He wanted to grow light bulbs instead of plants."
+  },
+  {
+    "id": 276,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 277,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 278,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 279,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 280,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 281,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 282,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 283,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 284,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 285,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 286,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 287,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 288,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 289,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 290,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because he got caught in a staff note."
+  },
+  {
+    "id": 291,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "They had no current relationship."
+  },
+  {
+    "id": 292,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "It needed more bytes of exercise."
+  },
+  {
+    "id": 293,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because it wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 294,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because it wanted to open a savings quack."
+  },
+  {
+    "id": 295,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "He wanted to go to high school."
+  },
+  {
+    "id": 296,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "He kneaded dough too much pressure."
+  },
+  {
+    "id": 297,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because it needed space."
+  },
+  {
+    "id": 298,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because it wanted to improve its spirits."
+  },
+  {
+    "id": 299,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "Because it lost its connection."
+  },
+  {
+    "id": 300,
+    "setup": "Why did the scarecrow become a motivational speaker?",
+    "punchline": "He wanted to grow light bulbs instead of plants."
+  },
+  {
+    "id": 301,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 302,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 303,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 304,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 305,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 306,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 307,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 308,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 309,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 310,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 311,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 312,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 313,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 314,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 315,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because he got caught in a staff note."
+  },
+  {
+    "id": 316,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "They had no current relationship."
+  },
+  {
+    "id": 317,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "It needed more bytes of exercise."
+  },
+  {
+    "id": 318,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because it wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 319,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because it wanted to open a savings quack."
+  },
+  {
+    "id": 320,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "He wanted to go to high school."
+  },
+  {
+    "id": 321,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "He kneaded dough too much pressure."
+  },
+  {
+    "id": 322,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because it needed space."
+  },
+  {
+    "id": 323,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because it wanted to improve its spirits."
+  },
+  {
+    "id": 324,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "Because it lost its connection."
+  },
+  {
+    "id": 325,
+    "setup": "Why did the banana go to the doctor?",
+    "punchline": "He wanted to grow light bulbs instead of plants."
+  },
+  {
+    "id": 326,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 327,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 328,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 329,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 330,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 331,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 332,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 333,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 334,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 335,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 336,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 337,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 338,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 339,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 340,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because he got caught in a staff note."
+  },
+  {
+    "id": 341,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "They had no current relationship."
+  },
+  {
+    "id": 342,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "It needed more bytes of exercise."
+  },
+  {
+    "id": 343,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because it wanted to keep an eye on the mouse."
+  },
+  {
+    "id": 344,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because it wanted to open a savings quack."
+  },
+  {
+    "id": 345,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "He wanted to go to high school."
+  },
+  {
+    "id": 346,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "He kneaded dough too much pressure."
+  },
+  {
+    "id": 347,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because it needed space."
+  },
+  {
+    "id": 348,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because it wanted to improve its spirits."
+  },
+  {
+    "id": 349,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "Because it lost its connection."
+  },
+  {
+    "id": 350,
+    "setup": "Why did the stadium get hot after the game?",
+    "punchline": "He wanted to grow light bulbs instead of plants."
+  },
+  {
+    "id": 351,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "Because it was tired of the same old route."
+  },
+  {
+    "id": 352,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "Because they make up everything."
+  },
+  {
+    "id": 353,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "Because he was outstanding in his field."
+  },
+  {
+    "id": 354,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "Because it was two-tired."
+  },
+  {
+    "id": 355,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "Because they don't have the guts."
+  },
+  {
+    "id": 356,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "Because it had too many problems."
+  },
+  {
+    "id": 357,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "It got mugged."
+  },
+  {
+    "id": 358,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "Because it felt crummy."
+  },
+  {
+    "id": 359,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "It had too many bytes from its past."
+  },
+  {
+    "id": 360,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "Because it saw the salad dressing."
+  },
+  {
+    "id": 361,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "In case he got a hole in one."
+  },
+  {
+    "id": 362,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "Because it needed better inner peace."
+  },
+  {
+    "id": 363,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "Because it wasn't peeling well."
+  },
+  {
+    "id": 364,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "Because of the heat of competition."
+  },
+  {
+    "id": 365,
+    "setup": "Why did the music teacher go to jail?",
+    "punchline": "Because he got caught in a staff note."
+  }
+]

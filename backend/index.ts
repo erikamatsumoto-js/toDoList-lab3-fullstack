@@ -2,6 +2,7 @@ import express from "express";
 import * as sqlite from "sqlite";
 import type { Database } from "sqlite";
 import sqlite3 from "sqlite3";
+import cors from "cors";
 
 export let database: Database;
 
@@ -14,13 +15,21 @@ database = await sqlite.open({
 
 await database.run("PRAGMA foreign_keys = ON");
 
+const corsOptions = {
+  origin: "http://localhost:5173",
+  methods: ["GET", "POST", "PUT", "PATCH", "DELETE"],
+  credentials: true,
+};
+app.use(cors(corsOptions));
+
+/*cors alternativ
 //måste placeras ovanför alla app.get,put,delete anroper (den ska köras först)
 app.use((request, response, next) => {
   response.header("Access-Control-Allow-Origin", "*");
   response.header("Access-Control-Allow-Headers", "Content-Type");
   next();
 });
-
+*/
 app.use(express.json());
 
 interface User {
@@ -180,7 +189,7 @@ app.post("/today", async (request, response) => {
 });
 
 //Edit task
-app.put("/today/:id", async (request, response) => {
+app.put("/today/:id", cors(corsOptions), async (request, response) => {
   const { id } = request.params;
   const { title, description, priority, status, due_date, category_id } =
     request.body;
@@ -203,7 +212,7 @@ app.put("/today/:id", async (request, response) => {
 });
 
 //Delete task
-app.delete("/today/:id", async (request, response) => {
+app.delete("/today/:id", cors(corsOptions), async (request, response) => {
   const { id } = request.params;
 
   await database.run(
@@ -302,7 +311,7 @@ app.post("/tasks", async (request, response) => {
 });
 
 //Edit task
-app.put("/tasks/:id", async (request, response) => {
+app.put("/tasks/:id", cors(corsOptions), async (request, response) => {
   const { id } = request.params;
   const { title, description, priority, status, due_date, category_id } =
     request.body;
@@ -325,7 +334,7 @@ app.put("/tasks/:id", async (request, response) => {
 });
 
 //Delete task
-app.delete("/tasks/:id", async (request, response) => {
+app.delete("/tasks/:id", cors(corsOptions), async (request, response) => {
   const { id } = request.params;
 
   await database.run(

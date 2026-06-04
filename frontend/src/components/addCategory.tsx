@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 interface AddCategoryProps {
   onCategoryAdded: () => void;
@@ -42,15 +42,9 @@ function AddCategory({ onCategoryAdded }: AddCategoryProps) {
       <label>
         Category
         <select value={newColor} onChange={(e) => setnewColor(e.target.value)}>
-          <option value="lightblue" style={{ color: "rgb(201, 233, 253)" }}>
-            ■ lightblue
-          </option>
-          <option value="lightgreen" style={{ color: "rgb(225,253,201)" }}>
-            ■ lightgreen
-          </option>
-          <option value="lightpurple" style={{ color: "rgb(240, 201, 253)" }}>
-            ■ lightpurple
-          </option>
+          <option value="lightblue">■ lightblue</option>
+          <option value="lightgreen">■ lightgreen</option>
+          <option value="lightpurple">■ lightpurple</option>
         </select>
       </label>
 

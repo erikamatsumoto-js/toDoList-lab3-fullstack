@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
+import { Button, Modal, Form } from "react-bootstrap";
 
 interface AddTaskProps {
   onTaskAdded: () => void;
@@ -16,6 +17,11 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
   const [newPriority, setNewPriority] = useState("Medium");
   const [newDueDate, setNewDueDate] = useState("");
   const [categories, setCategories] = useState<Category[]>([]);
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   useEffect(() => {
     fetchCategories();
@@ -52,67 +58,94 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
     setNewDueDate("");
 
     onTaskAdded();
+    setShow(false);
   }
 
   return (
-    <div className="addTask">
-      <label>
-        Title
-        <input
-          type="text"
-          value={newTitle}
-          onChange={(e) => setNewTitle(e.target.value)}
-        />
-      </label>
+    <>
+      <Button variant="primary" onClick={handleShow}>
+        + Add new task
+      </Button>
 
-      <label>
-        Description
-        <input
-          type="text"
-          value={newDescription}
-          onChange={(e) => setNewDescription(e.target.value)}
-        />
-      </label>
+      <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>Add new task</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <Form>
+            <Form.Group className="mb-3" controlId="addTaskForm">
+              <Form.Label>Title</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Enter task title..."
+                value={newTitle}
+                onChange={(e) => setNewTitle(e.target.value)}
+                autoFocus
+              />
+            </Form.Group>
 
-      <label>
-        Category
-        <select
-          value={newCategory}
-          onChange={(e) => setNewCategory(Number(e.target.value))}
-        >
-          <option value="">Select category</option>
+            <Form.Group className="mb-3" controlId="addTaskForm">
+              <Form.Label>Description</Form.Label>
+              <Form.Control
+                as="textarea"
+                placeholder="Enter task description..."
+                rows={3}
+                value={newDescription}
+                onChange={(e) => setNewDescription(e.target.value)}
+              />
+            </Form.Group>
 
-          {categories.map((category) => (
-            <option key={category.id} value={category.id}>
-              {category.title}
-            </option>
-          ))}
-        </select>
-      </label>
+            <Form.Group controlId="category">
+              <Form.Label htmlFor="category">Category</Form.Label>
+              <Form.Select
+                id="category"
+                aria-label="Category"
+                value={newCategory}
+                onChange={(e) => setNewCategory(Number(e.target.value))}
+              >
+                {categories.map((category) => (
+                  <option key={category.id} value={category.id}>
+                    {category.title}
+                  </option>
+                ))}
+              </Form.Select>
+            </Form.Group>
 
-      <label>
-        Priority
-        <select
-          onChange={(e) => setNewPriority(e.target.value)}
-          value={newPriority}
-        >
-          <option value="High">High</option>
-          <option value="Medium">Medium</option>
-          <option value="Low">Low</option>
-        </select>
-      </label>
+            <Form.Group controlId="priority">
+              <Form.Label htmlFor="priority">Priority</Form.Label>
+              <Form.Select
+                id="priority"
+                aria-label="Priority"
+                value={newPriority}
+                onChange={(e) => setNewPriority(e.target.value)}
+              >
+                <option value="High">High</option>
+                <option value="Medium">Medium</option>
+                <option value="Low">Low</option>
+              </Form.Select>
+            </Form.Group>
 
-      <label>
-        Due Date
-        <input
-          type="date"
-          value={newDueDate}
-          onChange={(e) => setNewDueDate(e.target.value)}
-        />
-      </label>
-
-      <button onClick={handleAddTask}>+ Add new task</button>
-    </div>
+            <Form.Group className="mb-3" controlId="addTaskForm">
+              <Form.Label>Due date</Form.Label>
+              <Form.Control
+                type="date"
+                value={newDueDate}
+                onChange={(e) => setNewDueDate(e.target.value)}
+                autoFocus
+              />
+            </Form.Group>
+          </Form>
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Cancel
+          </Button>
+          <Button variant="primary" onClick={handleAddTask}>
+            Add new task
+          </Button>
+        </Modal.Footer>
+      </Modal>
+    </>
   );
 }
 

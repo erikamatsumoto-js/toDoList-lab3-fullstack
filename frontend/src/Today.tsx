@@ -29,6 +29,28 @@ function Today() {
     setTasks(data);
   }
 
+  async function handleUpdateTask(id: number) {
+    await fetch(`http://localhost:3000/today/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        status: "completed",
+      }),
+    });
+
+    fetchToday();
+  }
+
+  async function handleDeleteTask(id: number) {
+    await fetch(`http://localhost:3000/today/${id}`, {
+      method: "DELETE",
+    });
+
+    fetchToday();
+  }
+
   return (
     <>
       <SideBar />
@@ -45,8 +67,12 @@ function Today() {
                   <Card.Title>{task.title}</Card.Title>
                   <Card.Text>{task.category_id}</Card.Text>
                   <Card.Text>Due: {task.due_date}</Card.Text>
-                  <button>Edit</button>
-                  <button>Delete</button>
+                  <button onClick={() => handleUpdateTask(task.id)}>
+                    Edit
+                  </button>
+                  <button onClick={() => handleDeleteTask(task.id)}>
+                    Delete
+                  </button>
                 </Card.Body>
               </Card>
             </Col>
