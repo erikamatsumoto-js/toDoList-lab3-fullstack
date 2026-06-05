@@ -73,7 +73,7 @@ await database.run(`
   CREATE TABLE IF NOT EXISTS categories (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     title TEXT NOT NULL,
-    user_id INTEGER NOT NULL,
+    user_id INTEGER ,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(id)
   )
@@ -173,7 +173,7 @@ app.get("/today", async (request, response) => {
 });
 
 //Add new task
-app.post("/today", async (request, response) => {
+app.post("/today", cors(corsOptions), async (request, response) => {
   const { title, description, priority, status, due_date, category_id } =
     request.body;
 
@@ -237,7 +237,7 @@ app.get("/tasks", async (request, response) => {
 });
 
 //Search filter
-app.get("/search", async (request, response) => {
+app.get("/search", cors(corsOptions), async (request, response) => {
   const { title } = request.query;
 
   let tasks;
@@ -295,7 +295,7 @@ app.get("/tasks/category", async (request, response) => {
   response.send(tasks);
 });
 //Add new task
-app.post("/tasks", async (request, response) => {
+app.post("/tasks", cors(corsOptions), async (request, response) => {
   const { title, description, priority, status, due_date, category_id } =
     request.body;
 
@@ -351,13 +351,13 @@ app.delete("/tasks/:id", cors(corsOptions), async (request, response) => {
 });
 
 //Category
-app.get("/categories", async (request, response) => {
+app.get("/categories", cors(corsOptions), async (request, response) => {
   const categories: Category[] = await database.all("SELECT * FROM categories");
   response.send(categories);
 });
 
 //Add category
-app.post("/categories", async (request, response) => {
+app.post("/categories", cors(corsOptions), async (request, response) => {
   const { title } = request.body;
 
   await database.run(

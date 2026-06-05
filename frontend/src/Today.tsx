@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Form, Card, Col, Container } from "react-bootstrap";
 import SideBar from "./components/sideBar";
 import AddTask from "./components/addTask";
+import EditTask from "./components/editTask";
 
 interface Task {
   id: number;
@@ -29,20 +30,6 @@ function Today() {
     setTasks(data);
   }
 
-  async function handleUpdateTask(id: number) {
-    await fetch(`http://localhost:3000/today/${id}`, {
-      method: "PATCH",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        status: "completed",
-      }),
-    });
-
-    fetchToday();
-  }
-
   async function handleDeleteTask(id: number) {
     await fetch(`http://localhost:3000/today/${id}`, {
       method: "DELETE",
@@ -67,9 +54,7 @@ function Today() {
                   <Card.Title>{task.title}</Card.Title>
                   <Card.Text>{task.category_id}</Card.Text>
                   <Card.Text>Due: {task.due_date}</Card.Text>
-                  <button onClick={() => handleUpdateTask(task.id)}>
-                    Edit
-                  </button>
+                  <EditTask onTaskEdited={fetchToday} />
                   <button onClick={() => handleDeleteTask(task.id)}>
                     Delete
                   </button>
