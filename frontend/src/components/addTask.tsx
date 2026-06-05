@@ -73,7 +73,7 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
         </Modal.Header>
         <Modal.Body>
           <Form>
-            <Form.Group className="mb-3" controlId="addTaskForm">
+            <Form.Group className="mb-3" controlId="addTitle">
               <Form.Label>Title</Form.Label>
               <Form.Control
                 type="text"
@@ -84,7 +84,7 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
               />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="addTaskForm">
+            <Form.Group className="mb-3" controlId="addDescription">
               <Form.Label>Description</Form.Label>
               <Form.Control
                 as="textarea"
@@ -95,14 +95,18 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
               />
             </Form.Group>
 
-            <Form.Group controlId="category">
-              <Form.Label htmlFor="category">Category</Form.Label>
+            <Form.Group className="mb-3" controlId="taskCategory">
+              {" "}
+              <Form.Label>Category</Form.Label>{" "}
               <Form.Select
-                id="category"
-                aria-label="Category"
+                title="Category"
                 value={newCategory}
-                onChange={(e) => setNewCategory(Number(e.target.value))}
+                onChange={(e) => {
+                  const val = e.target.value;
+                  setNewCategory(val === "" ? "" : Number(val));
+                }}
               >
+                <option value="">Select a category...</option>
                 {categories.map((category) => (
                   <option key={category.id} value={category.id}>
                     {category.title}
@@ -111,11 +115,11 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
               </Form.Select>
             </Form.Group>
 
-            <Form.Group controlId="priority">
-              <Form.Label htmlFor="priority">Priority</Form.Label>
+            <Form.Group className="mb-3" controlId="taskPriority">
+              {" "}
+              <Form.Label>Priority</Form.Label>{" "}
               <Form.Select
-                id="priority"
-                aria-label="Priority"
+                title="Priority"
                 value={newPriority}
                 onChange={(e) => setNewPriority(e.target.value)}
               >
@@ -125,13 +129,12 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
               </Form.Select>
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="addTaskForm">
+            <Form.Group className="mb-3" controlId="addDueDate">
               <Form.Label>Due date</Form.Label>
               <Form.Control
                 type="date"
                 value={newDueDate}
                 onChange={(e) => setNewDueDate(e.target.value)}
-                autoFocus
               />
             </Form.Group>
           </Form>
