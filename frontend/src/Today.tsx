@@ -82,7 +82,7 @@ function Today() {
                 <Col xs={12} key={task.id}>
                   <Card className="task-cards w-100">
                     <Card.Body>
-                      <div className="d-flex align-items-center gap-3">
+                      <div className="d-flex flex-column flex-md-row align-items-md-center gap-2 gap-md-3">
                         <Form.Check
                           className="checkBox"
                           checked={task.status === "done"}
@@ -98,9 +98,11 @@ function Today() {
                           {getPriorityIcon(task.priority)}
                         </Card.Title>
 
-                        <Card.Title className="mb-0">{task.title}</Card.Title>
+                        <Card.Title className="mb-0 text-break">
+                          {task.title}
+                        </Card.Title>
 
-                        <div className="d-flex gap-2 ms-auto">
+                        <div className="d-flex flex-wrap gap-2 ms-md-auto">
                           <Card.Text>
                             <i className="bi bi-calendar"></i> {task.due_date}
                           </Card.Text>
