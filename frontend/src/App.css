@@ -48,6 +48,7 @@ a {
   box-shadow:
     0 4px 8px 0 rgba(0, 0, 0, 0.2),
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 1.5rem;
 }
 .checkBox input {
   width: 2rem;
@@ -74,6 +75,22 @@ h1 {
 }
 .priority-task-select {
   font-size: 1.7rem;
+}
+
+.footer {
+  background-color: rgb(33, 58, 163);
+  height: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2rem;
+}
+
+#myBtn {
+  background-color: rgb(33, 58, 163);
+  color: aliceblue;
+  border: none;
+  font-size: 1.5rem;
 }
 
 @media (max-width: 576px) {

@@ -5,14 +5,14 @@ import Today from "./Today";
 import Tasks from "./Tasks";
 import Category from "./Category";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 function Priorio() {
   return (
     <>
-      <div className="headerNavbar">
-        <NavBar />
-      </div>
+      <NavBar />
       <Outlet />
+      <Footer />
     </>
   );
 }
