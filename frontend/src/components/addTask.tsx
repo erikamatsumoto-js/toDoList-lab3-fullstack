@@ -63,9 +63,11 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
-        + Add new task
-      </Button>
+      <div className="d-grid gap-2">
+        <Button variant="primary" size="lg" onClick={handleShow}>
+          + Add new task
+        </Button>
+      </div>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

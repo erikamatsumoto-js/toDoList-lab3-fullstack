@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function DadJoke() {
-  const [jokes, setJokes] = useState();
+  const [jokes, setJokes] = useState<any[]>([]);
 
   useEffect(() => {
     fetchDadJoke();
@@ -14,13 +14,19 @@ function DadJoke() {
     setJokes(data);
   }
 
+  const randomJoke =
+    jokes.length > 0 ? jokes[Math.floor(Math.random() * jokes.length)] : null;
+
   return (
     <>
       <div>
-        <h1>Daily JOke</h1>
-        {Math.floor(Math.random() * length)}
-        <p></p>
-        <p></p>
+        <h2>Daily Joke</h2>
+        {randomJoke && (
+          <div>
+            <p>{randomJoke.setup}</p>
+            <p>{randomJoke.punchline}</p>
+          </div>
+        )}
       </div>
     </>
   );

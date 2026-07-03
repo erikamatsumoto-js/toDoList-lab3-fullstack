@@ -1,30 +1,19 @@
 import "../App.css";
-import { Routes, Route, Link } from "react-router-dom";
-
-import Today from "../Today";
-import Tasks from "../Tasks";
-import Category from "../Category";
+import { Link } from "react-router-dom";
+import Logo from "../assets/PriorioLogo.png";
 
 function SideBar() {
   return (
-    <>
-      <nav>
-        <Link to="/">Home</Link>
-        {" | "}
-        <Link to="/today">Today</Link>
-        {" | "}
-        <Link to="/tasks">Tasks</Link>
-        {" | "}
-        <Link to="/categories">Category</Link>
-      </nav>
+    <nav>
+      <Link to="/">
+        <img src={Logo} className="logo" width="10%" alt="" />
+      </Link>
 
-      <Routes>
-        <Route path="/" element={""} />
-        <Route path="/today" element={<Today />} />
-        <Route path="/tasks" element={<Tasks />} />
-        <Route path="/categories" element={<Category />} />
-      </Routes>
-    </>
+      <Link to="/">Home</Link>
+      <Link to="/today">Today</Link>
+      <Link to="/tasks">Tasks</Link>
+      <Link to="/categories">Category</Link>
+    </nav>
   );
 }
 

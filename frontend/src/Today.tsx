@@ -1,8 +1,10 @@
+import "./App.css";
 import { useEffect, useState } from "react";
-import { Form, Card, Col, Container } from "react-bootstrap";
-import SideBar from "./components/sideBar";
+import { Form, Card, Col, Row, Container, Button } from "react-bootstrap";
 import AddTask from "./components/addTask";
 import EditTask from "./components/editTask";
+import GrinEmoji from "./assets/GrinEmoji.gif";
+import DailyJoke from "./components/joke";
 
 interface Task {
   id: number;
@@ -38,33 +40,72 @@ function Today() {
     fetchToday();
   }
 
+  const getPriorityIcon = (priority: string) => {
+    switch (priority) {
+      case "High":
+        return "🔴";
+      case "Medium":
+        return "🟠";
+      case "Low":
+        return "🟢";
+      default:
+        return "⚪";
+    }
+  };
+
   return (
     <>
-      <SideBar />
-      <h1>Today</h1>
-      <AddTask onTaskAdded={fetchToday} />
       <Container>
-        {tasks.length > 0 ? (
-          tasks.map((task) => (
-            <Col key={task.id}>
-              <Card className="task-cards">
-                <Card.Body>
-                  <Form.Check type="checkbox" label="" />
-                  <Card.Title>{task.priority}</Card.Title>
-                  <Card.Title>{task.title}</Card.Title>
-                  <Card.Text>{task.category_id}</Card.Text>
-                  <Card.Text>Due: {task.due_date}</Card.Text>
-                  <EditTask onTaskEdited={fetchToday} />
-                  <button onClick={() => handleDeleteTask(task.id)}>
-                    Delete
-                  </button>
-                </Card.Body>
-              </Card>
-            </Col>
-          ))
-        ) : (
-          <p className="text-muted mt-3">No tasks due today.</p>
-        )}
+        <h1>Today</h1>
+
+        <div className="pageContainer">
+          <section className="dailyJokeCard align-items-center">
+            <img src={GrinEmoji} alt="Grin emoji" className="grinemoji" />
+            <DailyJoke />
+          </section>
+
+          <Row className="g-3">
+            <AddTask onTaskAdded={fetchToday} />
+
+            {tasks.length > 0 ? (
+              tasks.map((task) => (
+                <Col xs={12} key={task.id}>
+                  <Card className="task-cards w-100">
+                    <Card.Body>
+                      <div className="d-flex align-items-center gap-3">
+                        <Form.Check className="checkBox" />
+
+                        <Card.Title className="mb-0">
+                          {getPriorityIcon(task.priority)}
+                        </Card.Title>
+
+                        <Card.Title className="mb-0">{task.title}</Card.Title>
+
+                        <div className="d-flex gap-2 ms-auto">
+                          <Card.Text>
+                            <i className="bi bi-calendar"></i> {task.due_date}
+                          </Card.Text>
+                          <EditTask onTaskEdited={fetchToday} />
+                          <Button onClick={() => handleDeleteTask(task.id)}>
+                            <i className="bi bi-trash3"></i>
+                          </Button>
+                        </div>
+                      </div>
+
+                      <div className="mt-2">
+                        <Card.Text className="mb-0 text-muted">
+                          {task.description}
+                        </Card.Text>
+                      </div>
+                    </Card.Body>
+                  </Card>
+                </Col>
+              ))
+            ) : (
+              <p className="text-muted mt-3">No tasks due today.</p>
+            )}
+          </Row>
+        </div>
       </Container>
     </>
   );

@@ -1,3 +1,90 @@
+html {
+  font-size: 105%;
+}
+
+body {
+  font-size: 1rem;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.headerNavbar {
+  background-color: rgb(33, 58, 163);
+  color: aliceblue;
+  a {
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-right: 2.5rem;
+  }
+}
+.logo {
+  margin-right: 10px;
+}
+.container {
+  align-items: center;
+  width: 80%;
+  margin: 3rem auto;
+}
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.dailyJokeCard {
+  display: flex;
+  width: 90%;
+  background-color: rgb(219, 241, 248);
+  border-radius: 0.5rem;
+  margin: 1.5rem;
+  padding: 2rem;
+}
+.grinemoji {
+  width: 20%;
+  margin-right: 10%;
+}
+.dailyJokeCard h2 {
+  color: rgb(33, 58, 163);
+}
+.dailyJokeCard p {
+  font-size: 1.5rem;
+}
+
+.task-cards {
+  box-shadow:
+    0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.checkBox input {
+  width: 2rem;
+  height: 2rem;
+  border: 0.1rem solid #adadad;
+}
+
+h1 {
+  font-size: 4rem;
+}
+.emojis {
+  width: 100%;
+  text-align: center;
+  font-size: clamp(0.7rem, 3vw, 2.5rem);
+  white-space: nowrap;
+  overflow: hidden;
+}
+.linkToTask {
+  color: black;
+  font-size: 2rem;
+}
+.linkToTask:hover {
+  text-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
+.priority-task-select {
+  font-size: 1.7rem;
+}
+
+/*例
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -182,3 +269,4 @@
     border-right-color: var(--border);
   }
 }
+*/
