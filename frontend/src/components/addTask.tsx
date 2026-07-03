@@ -14,7 +14,8 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
   const [newTitle, setNewTitle] = useState("");
   const [newDescription, setNewDescription] = useState("");
   const [newCategory, setNewCategory] = useState<number | "">("");
-  const [newPriority, setNewPriority] = useState("Medium");
+  const [newStatus, setNewStatus] = useState("to do");
+  const [newPriority, setNewPriority] = useState("High");
   const [newDueDate, setNewDueDate] = useState("");
   const [categories, setCategories] = useState<Category[]>([]);
 
@@ -45,7 +46,7 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
         title: newTitle,
         description: newDescription,
         priority: newPriority,
-        status: "pending",
+        status: newStatus,
         due_date: newDueDate,
         category_id: Number(newCategory),
       }),
@@ -54,6 +55,7 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
     setNewTitle("");
     setNewDescription("");
     setNewCategory("");
+    setNewStatus("to do");
     setNewPriority("Medium");
     setNewDueDate("");
 
@@ -75,9 +77,11 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
         </Modal.Header>
         <Modal.Body>
           <Form>
-            <Form.Group className="mb-3" controlId="addTitle">
-              <Form.Label>Title</Form.Label>
+            <Form.Group className="mb-3">
+              <Form.Label htmlFor="addTitle">Title</Form.Label>
               <Form.Control
+                id="addTitle"
+                aria-label="Title"
                 type="text"
                 placeholder="Enter task title..."
                 value={newTitle}
@@ -86,9 +90,11 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
               />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="addDescription">
-              <Form.Label>Description</Form.Label>
+            <Form.Group className="mb-3">
+              <Form.Label htmlFor="addDescription">Description</Form.Label>
               <Form.Control
+                id="addDescription"
+                aria-label="Description"
                 as="textarea"
                 placeholder="Enter task description..."
                 rows={3}
@@ -97,10 +103,12 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
               />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="taskCategory">
+            <Form.Group className="mb-3">
               {" "}
-              <Form.Label>Category</Form.Label>{" "}
+              <Form.Label htmlFor="taskCategory">Category</Form.Label>{" "}
               <Form.Select
+                id="taskCategory"
+                aria-label="Category"
                 title="Category"
                 value={newCategory}
                 onChange={(e) => {
@@ -117,10 +125,12 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
               </Form.Select>
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="taskPriority">
+            <Form.Group className="mb-3">
               {" "}
-              <Form.Label>Priority</Form.Label>{" "}
+              <Form.Label htmlFor="taskPriority">Priority</Form.Label>{" "}
               <Form.Select
+                id="taskPriority"
+                aria-label="Priority"
                 title="Priority"
                 value={newPriority}
                 onChange={(e) => setNewPriority(e.target.value)}
@@ -131,9 +141,11 @@ function AddTask({ onTaskAdded }: AddTaskProps) {
               </Form.Select>
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="addDueDate">
-              <Form.Label>Due date</Form.Label>
+            <Form.Group className="mb-3">
+              <Form.Label htmlFor="addDueDate">Due date</Form.Label>
               <Form.Control
+                id="addDueDate"
+                aria-label="DueDate"
                 type="date"
                 value={newDueDate}
                 onChange={(e) => setNewDueDate(e.target.value)}

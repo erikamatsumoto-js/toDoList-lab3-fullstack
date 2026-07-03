@@ -33,7 +33,7 @@ function AddCategory({ onCategoryAdded }: AddCategoryProps) {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button variant="primary" size="lg" onClick={handleShow}>
         + Add new category
       </Button>
       <Modal show={show} onHide={handleClose}>

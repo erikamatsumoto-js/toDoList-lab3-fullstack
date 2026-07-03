@@ -2,7 +2,6 @@ import "./App.css";
 import { useEffect, useState } from "react";
 import { Form, Card, Col, Row, Container, Button } from "react-bootstrap";
 import AddTask from "./components/addTask";
-import EditTask from "./components/editTask";
 import GrinEmoji from "./assets/GrinEmoji.gif";
 import DailyJoke from "./components/joke";
 
@@ -39,6 +38,17 @@ function Today() {
 
     fetchToday();
   }
+  const checkboxChecked = async (id: number, status: "todo" | "done") => {
+    await fetch(`http://localhost:3000/tasks/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ status }),
+    });
+
+    fetchToday();
+  };
 
   const getPriorityIcon = (priority: string) => {
     switch (priority) {
@@ -73,7 +83,16 @@ function Today() {
                   <Card className="task-cards w-100">
                     <Card.Body>
                       <div className="d-flex align-items-center gap-3">
-                        <Form.Check className="checkBox" />
+                        <Form.Check
+                          className="checkBox"
+                          checked={task.status === "done"}
+                          onChange={() =>
+                            checkboxChecked(
+                              task.id,
+                              task.status === "done" ? "todo" : "done",
+                            )
+                          }
+                        />
 
                         <Card.Title className="mb-0">
                           {getPriorityIcon(task.priority)}
@@ -85,7 +104,7 @@ function Today() {
                           <Card.Text>
                             <i className="bi bi-calendar"></i> {task.due_date}
                           </Card.Text>
-                          <EditTask onTaskEdited={fetchToday} />
+
                           <Button onClick={() => handleDeleteTask(task.id)}>
                             <i className="bi bi-trash3"></i>
                           </Button>

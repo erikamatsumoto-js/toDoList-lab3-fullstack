@@ -3,8 +3,6 @@ import { useEffect, useState } from "react";
 import { Card, Col, Row, Container, Form, Button } from "react-bootstrap";
 import AddTask from "./components/addTask";
 
-import EditTask from "./components/editTask";
-
 interface Task {
   id: number;
   title: string;
@@ -56,6 +54,17 @@ function Tasks() {
 
     fetchTasks();
   }
+  const checkboxChecked = async (id: number, status: "todo" | "done") => {
+    await fetch(`http://localhost:3000/tasks/${id}`, {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ status }),
+    });
+
+    fetchTasks();
+  };
 
   const filteredTasks =
     selectedCategory === "All"
@@ -108,7 +117,16 @@ function Tasks() {
                 <Card className="task-cards w-100">
                   <Card.Body>
                     <div className="d-flex align-items-center gap-3">
-                      <Form.Check className="checkBox" />
+                      <Form.Check
+                        className="checkBox"
+                        checked={task.status === "done"}
+                        onChange={() =>
+                          checkboxChecked(
+                            task.id,
+                            task.status === "done" ? "todo" : "done",
+                          )
+                        }
+                      />
                       <Card.Title className="mb-0">
                         {" "}
                         {getPriorityIcon(task.priority)}
@@ -120,7 +138,6 @@ function Tasks() {
                           <i className="bi bi-calendar"></i> {task.due_date}
                         </Card.Text>
 
-                        <EditTask taskId={task.id} onTaskEdited={fetchTasks} />
                         <Button onClick={() => handleDeleteTask(task.id)}>
                           <i className="bi bi-trash3"></i>
                         </Button>

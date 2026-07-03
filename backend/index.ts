@@ -187,28 +187,21 @@ app.post("/today", cors(corsOptions), async (request, response) => {
 
   return response.status(201).send();
 });
-
-//Edit task
-app.put("/today/:id", cors(corsOptions), async (request, response) => {
+//Checkbox todo done
+app.patch("/tasks/:id", cors(corsOptions), async (request, response) => {
   const { id } = request.params;
-  const { title, description, priority, status, due_date, category_id } =
-    request.body;
+  const { status } = request.body;
 
   await database.run(
     `
-    UPDATE tasks
-    SET title = ?,
-        description = ?,
-        priority = ?,
-        status = ?,
-        due_date = ?,
-        category_id = ?
-    WHERE id = ? 
+    UPDATE tasks SET status = ? WHERE id = ?;
     `,
-    [title, description, priority, status, due_date, category_id, id],
+    [status, id],
   );
 
-  return response.status(200).send();
+  response.status(200).json({
+    message: "Task status changed.",
+  });
 });
 
 //Delete task
@@ -302,35 +295,12 @@ app.post("/tasks", cors(corsOptions), async (request, response) => {
   await database.run(
     `
     INSERT INTO tasks ( title, description, priority, status, due_date, category_id, user_id)
-    VALUES (?, ?, ?, ?, ?, ?, ?)
+    VALUES (?, ?, ?, ?, ?, ?, 1)
     `,
     [title, description, priority, status, due_date, category_id],
   );
 
   return response.status(201).send();
-});
-
-//Edit task
-app.put("/tasks/:id", cors(corsOptions), async (request, response) => {
-  const { id } = request.params;
-  const { title, description, priority, status, due_date, category_id } =
-    request.body;
-
-  await database.run(
-    `
-    UPDATE tasks
-    SET title = ?,
-        description = ?,
-        priority = ?,
-        status = ?,
-        due_date = ?,
-        category_id = ?
-    WHERE id = ? 
-    `,
-    [title, description, priority, status, due_date, category_id, id],
-  );
-
-  return response.status(200).send();
 });
 
 //Delete task
